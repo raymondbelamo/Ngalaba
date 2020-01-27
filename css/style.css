@@ -60,7 +60,6 @@ div.parent header ul.navigation li {
 
 div.parent header ul.navigation li a {
     color: rgb(255, 255, 255);
-    text-transform: capitalize;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -132,6 +131,8 @@ div.parent section.showcase {
     margin-top: 0;
     text-align:center;
 }
+
+
 
 /* button */
 div.parent section.showcase a.button-1 {
@@ -246,8 +247,9 @@ div.parent section.boxes {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    border-bottom: rgb(0, 0, 0) 20px solid;
-    text-align: center;   
+    border-bottom: rgb(0, 0, 0) 30px solid;
+    text-align: center; 
+    text-decoration: none;  
 }
 
 div.parent section.boxes i {
@@ -256,26 +258,22 @@ div.parent section.boxes i {
     margin-top: 12px;
 }
 
-div.parent section.boxes span {
-    font-family: Arial, Helvetica, sans-serif;
+
+
+div.parent section.boxes a {
+    border: rgb(165, 136, 109) 1px solid;
+    padding: 10px;
+    border-radius: 30px;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    transition: all 250ms ease-in-out; 
 }
 
-div.parent section.boxes a.buttton-2 {
-    background-color: rgb(255, 255, 255);
-    border: rgb(165, 136, 109) 2px solid;
-    padding: 10px 10px 10px 30px;
-    border-radius: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: rgb(0, 0, 0);
-    font-size: 14px;
-    letter-spacing: 5px;
-    display: inline-flex;
-    align-items: center;
-}
+div.parent section.boxes a:hover {
+    font-size: 16px;
+}    
 
 div.parent footer.footer {
     background-color: rgb(255, 255, 255);
@@ -284,9 +282,22 @@ div.parent footer.footer {
     margin-bottom: 5px;      
 }
 
-div.parent footer.footer p{
+div.parent footer.footer p {
     margin-bottom: 10px;      
 }
+
+div.parent footer.footer a {
+    color: rgb(134, 91, 56);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    transition: all 250ms ease-in-out; 
+}
+
+div.parent footer.footer a:hover {
+    font-size: 16px;     
+}
+
 
 
 
