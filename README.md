@@ -1,2 +1,0 @@
-# byteworks
-byteworks assessment
